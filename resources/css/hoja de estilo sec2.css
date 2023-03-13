@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    list-style: none;
+    font-size: 20px;
+}
+footer {
+    background-color: rgb(3,4,94);
+    color: white;
+    padding: 3%;
+    text-align: center;
+}
+header {
+    background-color: rgb(0,119,182);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%; 
+}
+.titulo {
+    text-align: center;
+    background-color: rgb(3,4,94);
+    padding: 50px;
+    color: white;
+    font-size: 30px;
+}
+#titulo {
+    font-size: 60px;
+}
+.logo img {
+    height: 70px;
+    width: 70px;
+    transition: all 0.3s;
+    border-radius: 100%;
+    overflow: hidden;
+    
+}
+.logo {
+    cursor: pointer;
+}
+.logo img:hover {
+    transform: scale(1.2);
+}
+
+.links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.links a {
+    font-size: 700;
+    color: white;
+    text-decoration: none;
+}
+.links li:hover {
+    transform: scale(1.2);
+}
+.links li a:hover {
+    color: blanchedalmond;
+}
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+p {
+    text-align: justify;
+}
+
+.container {
+    border-style: hidden;
+    background-color: rgb(200,200,200);
+    margin: 20px 250px;
+    padding: 20px;
+}
+.cajas {
+    background-color: rgb(186,186,186);
+    padding: 20px;
+    text-align: left;
+    margin: 10px;
+}
+.imagen {
+    display: flex;
+    justify-content: center;
+}

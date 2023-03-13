@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background-color: rgb(0,119,182);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%; 
+}
+footer {
+    background-color: rgb(3,4,94);
+    color: white;
+    padding: 3%;
+    text-align: center;
+}
+h2 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.titulo {
+    text-align: center;
+    background-color: rgb(3,4,94);
+    padding: 50px;
+    color: white;
+    font-size: 30px;
+}
+#titulo {
+    font-size: 60px;
+}
+
+.cajas {
+    display: table-cell;
+    padding: 20px;
+    text-align: left;
+    margin: 10px;
+}
+.columna_izquierda {
+    background-color: rgb(200,200,200);
+    padding: 20px;
+}
+.columna_derecha {
+    background-color: rgb(200,200,200);
+    padding: 20px;
+    text-align: justify;
+}
+.bloques {
+    background-color: rgb(186,186,186);
+    padding: 10px;
+    margin: 10px;
+    
+}
+    
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    list-style: none;
+    font-size: 20px;
+}
+
+.logo img {
+    height: 70px;
+    width: 70px;
+    transition: all 0.3s;
+    border-radius:  100%;
+    overflow: hidden;
+    
+}
+.logo {
+    cursor: pointer;
+}
+.logo img:hover {
+    transform: scale(1.2);
+}
+
+.links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.links a {
+    font-size: 700;
+    color: white;
+    text-decoration: none;
+}
+.links li:hover {
+    transform: scale(1.2);
+}
+.links li a:hover {
+    color: blanchedalmond;
+}
+@media (max-width:400px) {
+ 
+
+
+
+}
+
+
+
+
